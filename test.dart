@@ -106,7 +106,7 @@ void main() {
   } on TypeError catch(e, s) {
     print('Null 값이 참조 되었습니다.');
   } catch(e, s) {
-    rethrow;
+    print('예상 못한 코드오류');
   }
 
 }
